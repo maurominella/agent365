@@ -30,6 +30,18 @@ curl -X POST http://127.0.0.1:8000/echo \
   -d "{\"message\": \"Hello world!\"}"
 ```
 
+## Test with **REST Client** Extension for VSCODE
+```
+@baseUrl = http://127.0.0.1:8000
+
+POST {{baseUrl}}/echo
+Content-Type: application/json
+ 
+{
+    "message": "Hello world!"
+}
+```
+
 ## Swagger UI
 ```
 http://127.0.0.1:8000/docs
